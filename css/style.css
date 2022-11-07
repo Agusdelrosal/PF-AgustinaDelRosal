@@ -1,0 +1,191 @@
+header nav {
+  background-color: #ffd4d0; }
+  header nav div .logo {
+    width: 230px;
+    margin-top: 5px;
+    margin-left: 14px; }
+  header nav div #navbarNav {
+    font-style: italic;
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    justify-content: right; }
+    header nav div #navbarNav ul li .nav-link {
+      color: #3d3d80;
+      font-size: 15px; }
+    header nav div #navbarNav ul li:hover {
+      transform: scale(1.1);
+      transition: all 0.5s;
+      background: #e0f7ff; }
+
+footer {
+  background: linear-gradient(90deg, white 0%, #fecfcf 60%, #cff8fe 100%);
+  height: 100px; }
+
+.nav-footer {
+  font-style: italic;
+  font-family: "Abel", sans-serif;
+  font-size: 20px;
+  margin: 15px;
+  padding-top: 20px;
+  color: white;
+  text-decoration: none; }
+
+p {
+  font-family: "Abel", sans-serif;
+  font-size: 1 20px;
+  color: white; }
+
+div div div form {
+  height: 480px;
+  padding: 1rem;
+  background-color: #fff2f2;
+  width: 100%;
+  font-family: "Abel", sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px; }
+  div div div form div .form-label {
+    color: #2e2e6a;
+    padding-left: 20px; }
+  div div div form div #boton {
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+    color: white;
+    width: 30%;
+    background-color: #b9e8f7;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    outline: none; }
+
+div div div div iframe {
+  display: block; }
+
+body {
+  background-image: url(../media/image/index/fondo.webp);
+  background-size: 100%;
+  background-repeat: repeat-y;
+  width: 100%;
+  overflow-x: hidden; }
+
+html {
+  overflow-x: hidden; }
+
+section {
+  position: relative; }
+  section foto-principal {
+    width: 100%;
+    justify-content: center; }
+  section div {
+    position: absolute;
+    top: 35%;
+    left: 44%;
+    width: 50%;
+    justify-items: center; }
+    section div h1 {
+      color: white;
+      font-family: "Abel", sans-serif;
+      font-size: 8vw; }
+    section div p {
+      color: white;
+      font-family: "Abel", sans-serif;
+      font-size: 2vw;
+      text-transform: uppercase; }
+
+#foto-principal {
+  width: 100%;
+  justify-content: center; }
+
+#galeria {
+  margin-top: 25px; }
+  #galeria #fotos-secundarias {
+    width: 100%;
+    padding: 30px;
+    transition: all 0.5s; }
+    #galeria #fotos-secundarias div #fotos-index:hover {
+      transform: scale(1.3);
+      transition: all 0.5s;
+      box-shadow: 5px 5px 5px gray; }
+    #galeria #fotos-secundarias div .titulo-index {
+      font-style: italic;
+      font-family: "Abel", sans-serif;
+      font-size: 25px;
+      padding-top: 20px;
+      color: #3d3d80; }
+
+.contenedor {
+  padding-top: 30px; }
+  .contenedor #titulos {
+    font-family: 'Beth Ellen', cursive;
+    font-size: 20px;
+    height: 40px;
+    color: white;
+    animation: bounceInLeft;
+    animation-duration: 3s;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+
+div #nosotros {
+  font-family: "Abel", sans-serif;
+  font-size: 20px;
+  color: #2e2e6a;
+  margin-top: auto; }
+
+#carouselExampleCaptions {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 40px;
+  margin-top: 40px; }
+
+.titulo-cursos {
+  font-family: "Abel", sans-serif;
+  color: #2e2e6a;
+  font-size: 30px;
+  margin: 30px;
+  background-color: #fff2f2;
+  padding: 10px;
+  text-shadow: 10px; }
+
+.table {
+  color: #2e2e6a; }
+
+#profesor {
+  font-family: "Abel", sans-serif;
+  color: #2e2e6a;
+  font-size: 18px; }
+
+.descripcion {
+  font-family: "Abel", sans-serif;
+  color: #2e2e6a;
+  font-size: 20px;
+  margin: 30px; }
+
+#texto-horarios {
+  font-family: "Abel", sans-serif;
+  color: #2e2e6a;
+  font-size: 20px; }
+
+.card {
+  margin: 20px;
+  box-shadow: 10px;
+  border-radius: 30px;
+  background: linear-gradient(155deg, #e0f7ff 50%, white 100%);
+  margin-bottom: 20px; }
+  .card .card-img-top {
+    border-radius: 30px; }
+  .card .card-body .card-title {
+    font-size: 25px;
+    font-family: 'Beth Ellen', cursive;
+    font-weight: 200;
+    color: #2e2e6a; }
+  .card .card-body .card-text {
+    font-size: 17px;
+    font-family: "Abel", sans-serif;
+    color: #2e2e6a; }
+  .card .card-body .btn {
+    background-color: #2e2e6a;
+    color: white;
+    font-family: "Abel", sans-serif; }

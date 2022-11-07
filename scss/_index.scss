@@ -1,0 +1,74 @@
+body {
+    background-image: url(../media/image/index/fondo.webp);
+    background-size: 100%;
+    background-repeat: repeat-y;
+    width: 100%;
+    overflow-x: hidden;
+} 
+
+html {
+    overflow-x: hidden;
+}
+
+section { 
+    position: relative;
+        foto-principal { 
+            width: 100%;
+            justify-content: center;
+        }
+        div {
+            position: absolute;
+            top: 35%;
+            left: 44%;
+            width: 50%;
+            justify-items: center;
+            h1 {
+                color: $blanco;
+                font-family: $fuente;
+                font-size: 8vw;
+            }   
+
+            p {
+                color: $blanco;
+                font-family: $fuente;
+                font-size: 2vw;
+                text-transform: uppercase;
+                
+            }
+          
+        }
+}
+
+#foto-principal { 
+    width: 100%;
+    justify-content: center;
+}
+
+
+#galeria { 
+    margin-top: 25px;
+    
+    
+    #fotos-secundarias { 
+        width: 100%;
+        padding: 30px;
+        transition: all 0.5s;
+        
+        
+        div { 
+            #fotos-index:hover { 
+                transform: scale(1.3);
+                transition: all 0.5s;
+                box-shadow: 5px 5px 5px gray;
+            }
+            .titulo-index { 
+                font-style: italic;
+                font-family: $fuente;
+                font-size: 25px;
+                padding-top: 20px;
+                color: rgb(61, 61, 128);
+            }
+        }
+        
+    }
+}
